@@ -3,6 +3,7 @@ node_modules
 .nuxt
 .vite
 .nitro
+.netlify
 .cache
 .output
 .env
