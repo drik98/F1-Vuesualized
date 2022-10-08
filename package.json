@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "@aixigo/reason-management-frontend",
   "version": "0.1.0",
   "description": "This vue3 based application visualizes the ergast Formula 1 API",
@@ -12,6 +11,8 @@
     "url": "https://github.com/drik98/F1-Vuesualized",
     "type": "git"
   },
+  "private": true,
+  "license": "GPLv3",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -19,8 +20,21 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "dependencies": {
+    "@element-plus/icons-vue": "~2.0.10",
+    "element-plus": "~2.2.17",
+    "pinia": "~2.0.22",
+    "vue": "~3.2.40"
+  },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.11"
+    "@pinia/nuxt": "~0.4.2",
+    "@unocss/nuxt": "~0.45.28",
+    "@vueuse/nuxt": "~9.3.0",
+    "nuxt": "~3.0.0-rc.11",
+    "sass": "~1.55.0",
+    "typescript": "~4.8.4",
+    "unplugin-element-plus": "~0.4.1",
+    "vite": "~3.1.6"
   },
   "engineStrict": true,
   "engines": {
